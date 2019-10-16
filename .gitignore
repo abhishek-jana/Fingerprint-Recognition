@@ -1,0 +1,5 @@
+data/*
+input/*
+.ipynb_checkpoints/*
+y_train.npy
+y_val.npy
