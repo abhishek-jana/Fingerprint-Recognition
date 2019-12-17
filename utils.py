@@ -22,4 +22,15 @@ def train_test_split(data, ratio = 0.2):
         test[key] = vals[:split]
     return train,test
 
+def get_label(path):
+    """
+    Given path returns image and label
+    """
+    image = []
+    labels = []
+    for files in os.listdir(path):
+        label,_ = files.split('_')
+        labels.append(label)
+        image.append(file)
+    return image,label
 
